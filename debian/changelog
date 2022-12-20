@@ -1,0 +1,202 @@
+ksmtp (21.08.1-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Sat, 26 Nov 2022 21:12:00 +0800
+
+ksmtp (21.08.1-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.1).
+  * Bump Standards-Version to 4.6.0, no change required.
+
+ -- Norbert Preining <norbert@preining.info>  Sat, 11 Sep 2021 07:24:41 +0900
+
+ksmtp (21.08.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.0).
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 16:25:42 +0900
+
+ksmtp (21.04.3-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.3).
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 09 Jul 2021 10:38:40 +0900
+
+ksmtp (21.04.1-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.1).
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 14 May 2021 06:13:38 +0900
+
+ksmtp (21.04.0-1) experimental; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + libkpimsmtp-dev: Add Multi-Arch: same.
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.0).
+  * Borrow minimal upstream signing key from k3b.
+  * Drop Kubuntu from maintainer name.
+  * Removed Maximiliano Curia from the uploaders, thanks for your work
+    on the package!
+  * Added myself to the uploaders.
+  * Update Debian ABI Manager patch.
+
+ -- Norbert Preining <norbert@preining.info>  Thu, 13 May 2021 09:46:48 +0900
+
+ksmtp (20.08.3-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (20.08.3).
+  * Bump Standards-Version to 4.5.1 (No changes needed).
+  * Minimize the upstream GPG signing key.
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 16 Dec 2020 01:39:17 +0100
+
+ksmtp (20.08.2-2) unstable; urgency=medium
+
+  * Team upload to unstable.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 20 Oct 2020 00:07:48 +0200
+
+ksmtp (20.08.2-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * Switch from dhmk to the dh sequencer:
+    - invoke the dh sequencer using the kf5 addon
+    - call the right debhelper command instead of $(overridden_command)
+  * New upstream release (20.08.2).
+  * Update build-deps and deps with the info from cmake.
+  * Update Homepage link to point to new invent.kde.org
+  * Update field Source in debian/copyright to invent.kde.org move.
+  * Update repository related entries to metadata file.
+  * Add Bug-* entries to metadata file.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 16 Oct 2020 00:52:03 +0200
+
+ksmtp (20.04.1-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (20.04.1).
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 26 May 2020 23:59:35 +0200
+
+ksmtp (20.04.0-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * Update watch file to the new release-service location.
+  * Bump compat level to 13.
+  * Bump Standards-Version to 4.5.0 (No changes needed).
+  * Add Rules-Requires-Root field to control.
+  * New upstream release (19.12.3).
+  * Update build-deps and deps with the info from cmake.
+  * New upstream release (20.04.0).
+  * Update patch hunks.
+  * Enable hardening all.
+  * Set field Upstream-Contact in debian/copyright.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 13 May 2020 12:20:55 +0200
+
+ksmtp (19.08.3-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (19.08.3).
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 30 Nov 2019 22:54:52 +0100
+
+ksmtp (19.08.2-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.4.1 (No changes needed).
+  * New upstream release (19.08.2).
+  * Update build-deps and deps with the info from cmake.
+  * Update install files for new upstream release.
+  * Remove breaks against kde-l10n packages.
+  * Update libkpimsmtp-dev dependencies.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 08 Nov 2019 10:39:10 +0100
+
+ksmtp (18.08.3-3) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 14 Nov 2019 23:49:42 +0100
+
+ksmtp (18.08.3-2) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.4.0 (No changes needed).
+  * Bump compat level to 12.
+  * Add myself to Uploaders.
+  * Delete not needed Breaks/Confilcts.
+  * Use virtual packages to bundle KDEPIM.
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 05 Oct 2019 00:01:54 +0200
+
+ksmtp (18.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * ksmtp does not depend at KMime.
+  * New upstream release (18.08.3).
+  * Bump Standards-Version to 4.3.0 (No changes needed).
+
+ -- Sandro Knauß <hefee@debian.org>  Mon, 04 Feb 2019 15:59:21 +0100
+
+ksmtp (18.08.1-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.2.1 (No changes needed).
+  * New upstream release (18.08.1).
+  * Follow stable releases in KDE again.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 02 Oct 2018 23:18:19 +0200
+
+ksmtp (18.07.90-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Update watch file to match unstable releases, too.
+  * New upstream release (18.07.90).
+  * Bump Standards-Version to 4.2.0 (No changes needed).
+  * Update build-deps and deps with the info from cmake.
+  * Update symbols from build for 18.07.90.
+  * Use DebianABIManager to handle libkpimsmtp5.
+  * Update library from libkpimsmtp5 -> libkpimsmtp5abi1.
+  * Split out arch independent data into libkpimsmtp-data.
+  * Update copyright file for new upstream.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 17 Aug 2018 18:17:35 +0200
+
+ksmtp (17.12.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (17.12.3).
+  * Update build-deps and deps with the info from cmake.
+  * Add upstream metadata (DEP-12).
+  * Update package descriptions.
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 31 Mar 2018 18:26:45 +0200
+
+ksmtp (17.12.2-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Pino Toscano ]
+  * Initial packaging (Closes: #886170)
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 09 Mar 2018 15:15:04 +0100

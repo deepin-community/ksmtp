@@ -1,0 +1,5 @@
+usr/include/KPim/KSMTP/
+usr/include/KPim/ksmtp_version.h
+usr/lib/*/cmake/KPimSMTP/
+usr/lib/*/libKPimSMTP.so
+usr/lib/*/qt5/mkspecs/modules/qt_KSMTP.pri
